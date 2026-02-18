@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: blanchedalmond;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        h1 {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        p {
+            color: gray;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <h1>Olá, Mundo!</h1>
+            <p>Já me livrei da maldição</p>
+        </div>
+    </div>
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome?') // Vai perguntar o nome do usuário e colocar numa variável
+        window.alert('Prazer em te conhecer ' + nome + '!') // Contatatenação
+    </script>
+</body>
+</html>
