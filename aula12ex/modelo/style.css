@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 80, 116);
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+}
+
+header {
+    color: white;
+    font-size: 2rem;
+}
+
+footer {
+    color: white;
+    font-size: 1.3rem;
+}
+
+section {
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
