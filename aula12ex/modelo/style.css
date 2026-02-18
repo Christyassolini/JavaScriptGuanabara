@@ -30,3 +30,22 @@ section {
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+div#res img {
+    margin-top: 20px;
+}
+
+div p {
+    margin-bottom: 20px;
+}
+
+div img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
